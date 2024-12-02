@@ -1,7 +1,182 @@
-p{
-    color: yellowgreen;
+/*
+    .ishika{
+    /* color: ;
+     */
+
+
+    /*
+        font-size: 50%;}
+    #cyb{
+      border: red solid 2px;
+    }
+    .sqr{
+        width: 200px;
+        height: 200px;
+        border: 2px solid black ;
+    }
+    .sq2{
+       
+            width: 200px;
+            height: 200px;
+            border: 2px solid black ;
+            
+    }
+    .sq3{
+        width: 200px;
+            height: 200px;
+            border: 2px solid black ;
+
+    }
+    #maindiv{
+        display: flex;
+       /* justify-content: center;*/
+       /*
+justify-content: center;
+gap: 10px;
+
+    }
+    .span{
+        color: blueviolet;
+        font-weight: 300;
+        font-size: 1000%;
+    }
+*/
+/* NAVIGATION BAR*/
+
+/*
+#navbar{
+    display: flex;
+    justify-content: center;
+    gap: 150px;
+    list-style: none;
+}
+
+#navbar li a{
+    text-decoration: none;
+    color: red;
+}
+*/
+
+/* DECENDENT SELECTOR 
+ul li a{
+    text-decoration: none;
+    color: rgb(43, 226, 128);
+}
+    */
+
+    /* NESTING IN DIV TAG*/
+    
+    /*
+#boxes{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+    #boxes div{
+        width: 200px;
+        height: 200px;
+        border: solid 2px black;
+    }
+    */
+
+
+    *{
+        margin: 0px;
+        padding: opx;
+        box-sizing: border-box;
+
+
+
+    }
+    #toppart{
+        display: flex;
+        text-decoration: none;
+        justify-content: space-between;
+        background-color: lightgrey;
+        align-items: center;
+        border-radius: 10px;
+        margin-left: 20px;
+        padding-left: 20px;
+        margin-right: 20px;
+        padding-right: 20px;
+        /* POSITION  */
+        /* position: absolute;  TYPE 1 
+        top: 100px;
+        left: 5%; */
+         /* position: fixed;   TYPE 2*/ 
+          /* position: relative;  TYPE 3 
+         top: 100px;
+         */
+    }
+    
+     #toppart nav ul{
+        display: flex;
+        gap: 150px;
+       list-style: none;
+    } 
+
+    #toppart nav ul li{
+        font-size: 20px;
+       
+    }
+    #toppart nav ul li a{
+        text-decoration: none;
+        font-family: "Oleo Script", system-ui;
+    }
+    #toppart img{
+        width: 50px;
+        border-radius: 50%;
+    }
+#toppart button{
+    border-bottom-left-radius: 40%;
+    border-top-right-radius: 40%;
+}
+
+
+/* MAIN SECTION IN CSS */
+
+#home{
+    width: 100%;
+    height: 100vh; 
+    border: 3px solid black;
+    background-image:url(download.jpeg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-position: center; */
+    color: burlywood;
+   text-align: center;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+
+}
+
+#About .mainAbout{
+    width: 100%;
+    height: 100vh;
     border: 1px solid black;
-    padding: 10px;
-    margin: 25px;
-    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+#About .mainAbout div{
+    width: 60vh;
+    height: 60vh;
+    border: 1px solid black;
+}
+
+#About .mainAbout div img{
+    width: 60vh;
+    height: 60vh;
+}
+
+/* WAY TO GET TEXT IN CENTER */
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
